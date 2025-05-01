@@ -1,0 +1,67 @@
+/* admin.css */
+
+body {
+  background: linear-gradient(135deg, #007bff, #004080);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  padding-top: 70px;
+}
+
+.navbar {
+  background-color: #003366;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h2, h4 {
+  margin-bottom: 20px;
+}
+
+input.form-control {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+}
+
+input.form-control:focus {
+  border: 2px solid #0056b3;
+  box-shadow: none;
+}
+
+button {
+  width: 100%;
+}
+
+.alert {
+  border-radius: 15px;
+}
+
+.card {
+  background: rgba(255,255,255,0.9);
+  color: #000;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#registeredVotersList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#registeredVotersList li {
+  background: rgba(255,255,255,0.8);
+  color: #000;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+#countdown {
+  font-size: 1.2rem;
+}

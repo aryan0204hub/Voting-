@@ -1,0 +1,32 @@
+/* results.css */
+
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#electionStatus {
+  font-size: 18px;
+}
+
+.table {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.table-success td {
+  font-weight: bold;
+  background-color: #d4edda !important;
+}
